@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar1 .one{
+    display: flex;
+    margin: 0;
+    /* margin: 15px 15px; */
+    /* border: 2px solid red; */
+    background-color: rgb(50, 50, 80);
+    padding: 0px 20px;
+    padding-top: 15px 0px;
+}
+.navbar1 li{
+    list-style:  none;
+    margin: 10px 10px;
+    
+}
+.navbar1 li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Alkatra';
+
+}
+li a:hover{
+    color: black;
+}
+li img{
+    margin: 0px 0px 0px 865px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    font-family: 'Alkatra';
+
+}
+.footer h3{
+    text-decoration: underline;
+}
+.footer a{
+    text-decoration: none;
+    color: wheat;
+}
+.p{
+    margin: 0px 20px;
+    padding: 20px;
+}
+.s{
+    margin: 0px 20px;
+    padding: 20px;
+}
+.r{
+    margin: 0px 20px;
+    padding: 20px;
+}
+.tweet img{
+    height: 50px;
+    width: 40px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.in img{
+    height: 50px;
+    width: 40px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.phone img{
+    height: 50px;
+    width: 40px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.Sw{
+    display: flex;
+    background-color: grey;
+}
+.Sw2{
+    display: flex;
+     background-color: grey; 
+}
+.cards{
+    border: 2px solid black;
+    width: 300px;
+    margin: 10px 65px;
+    border-radius: 20px;
+    height: 350px;
+    background-color: rgb(97, 92, 92);
+    transition: all 0.5s ease-in-out;
+    font-family: 'Alkatra';
+}
+.cards:hover{
+    transform: translate(40px,40px);
+}
+.cards img{
+    height: 200px;
+    width: 200px;
+    margin: 10px 45px;
+    border-radius: 100px;
+}
+.cards h4, h5{
+    margin: 0px 96px;
+}
+.cards h5{
+    color: white;
+}
+ #bt1,#bt2,#bt3,#bt4,#bt5,#bt6{
+    margin: 0px 110px;
+    border-radius: 9px;    
+    width: 50px;
+    background-color: rebeccapurple;
+}
+#bt1:hover{
+    background-color: black;
+    color: yellow;
+}
+#bt2:hover{
+    background-color: black;
+    color: yellow;
+}
+#bt3:hover{
+    background-color: black;
+    color: yellow;
+}
+#bt4:hover{
+    background-color: black;
+    color: yellow;
+}
+#bt5:hover{
+    background-color: black;
+    color: yellow;
+}
+#bt6:hover{
+    background-color: black;
+    color: yellow;
+}
+.cart img{
+    height: 60px;
+    width: 40px;
+    border-radius: 70px;
+}
+
+.about{
+    background-image: url('https://img.freepik.com/premium-vector/liquid-chocolate-splash-wave-dark-background_158582-597.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    opacity: 1; 
+    /* background-color: grey; */
+}
+
+.over{
+    /* background-image: url('https://c8.alamy.com/comp/WXPNRH/rangoli-of-sweets-and-farsansnacks-in-bowls-for-diwali-with-diya-over-white-background-WXPNRH.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    opacity: 0.9; */
+}
+
+.over h1{
+    text-align: center;
+    color: white;
+    font-family: 'Alkatra', cursive;
+}
+.over p{
+    font-size: xx-large;
+    font-family: 'Alkatra', cursive;
+    font-weight:1200;
+    color: white;
+    margin: 0 12px;
+    /* border-bottom: 2px solid grey; */
+}
+
+.ove{
+    /* background-image: url('https://media.istockphoto.com/id/1287186696/photo/food-delivery-app-order-with-phone-online-mobile-service-for-take-away-burger-and-pizza.jpg?b=1&s=170667a&w=0&k=20&c=rpyHqkxeuH5P4xdFFcvE-bjet3GMdGo7qwUoswFwlXU=');
+    background-repeat: no-repeat;
+    background-size: 1500px 1100px;
+    opacity: 1; */
+}
+.ove h1{
+    text-align: center;
+    margin-top: 0;
+    color: white;
+    font-family: 'Alkatra', cursive;
+}
+
+.ove img{
+    width: 80px;
+    height: 80px;
+    border-radius: 49px;
+    margin: 0 120px;
+    
+}
+.logos{
+    display: flex;
+}
+
+
+.team h1{
+    text-align: center;
+    font-family: 'Alkatra';
+    color: white;
+    /* border-top: 2px solid grey; */
+}
+.man{
+    display: flex;
+}
+.man h3{
+    margin: 0 100px;
+}
+.man img{
+    margin: 0 70px;
+}
+.team h1{
+    font-family: 'Alkatra', cursive;
+}
+
+.team img{
+    width: 270px;
+    height: 270px;
+    border-radius: 150px;
+}
+
+.post{
+    display: flex;
+    margin: 0 100px;
+}
+.m{
+    margin: 0 14px;
+    font-family: 'Alkatra', cursive;
+    color: white;
+}
+.d{
+    margin: 0 340px;
+    font-family: 'Alkatra', cursive;
+    color: white;
+}
+.c{
+    margin: 0 14px;
+    font-family: 'Alkatra', cursive;
+    color: white;
+}
+.t:hover{
+    transform:rotate(360deg);
+}
+
+.form{
+    text-align: center;
+    background-image: url('https://img.freepik.com/premium-vector/liquid-chocolate-splash-wave-dark-background_158582-597.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    opacity: 1; 
+}
+
+.f{
+    border-radius: 9px;
+    color: rgb(206, 181, 181);
+}
+
+.rb{
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 2px 4px;
+    margin: 0 12px;
+}
+
+.rb:hover{
+    background-color: rgb(97, 97, 112);
+}
